@@ -1,0 +1,46 @@
+{
+  "name": "chattts-newer",
+  "productName": "ChatTTS Newer",
+  "description": "ChatTTS Newer是专为想要使用ChatTTS的新手准备的体验工具",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "tangshuang",
+  "private": true,
+  "scripts": {
+    "start": "electron-forge start",
+    "dev": "vite",
+    "build": "vite build",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "make-icon": "electron-icon-builder --input=./assets/icon.png --output=./assets/ --flatten"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "electron": "^30.0.8",
+    "electron-icon-builder": "^2.0.1",
+    "less": "^4.2.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vite-plugin-commonjs": "^0.10.1",
+    "vue-tsc": "^1.8.3"
+  },
+  "dependencies": {
+    "@vicons/carbon": "^0.12.0",
+    "@vicons/fluent": "^0.12.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "naive-ui": "^2.38.2",
+    "ts-fns": "^11.1.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.4.0",
+    "vue3-markdown-it": "^1.0.10"
+  }
+}
