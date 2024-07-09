@@ -21,4 +21,4 @@ ChatTTS是一个基于AI的语音播报软件，与传统的TTS软件不同，Ch
 - 音色种子工具：https://github.com/6drf21e/ChatTTS_Speaker
 - 声音克隆：(未知项目)
 
-如果你发现本软件中存在的问题，可以通过github issues进行反馈，也欢迎参与补充学习资料。
+本项目源码托管在 https://github.com/tangshuang/chattts-newer 如果你发现本软件中存在的问题，可以通过github issues进行反馈，也欢迎参与补充学习资料。

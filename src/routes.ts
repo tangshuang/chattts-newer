@@ -6,7 +6,7 @@ export default [
     {
         name: 'home',
         path: '/',
-        component: () => import('./views/home.vue'),
+        component: () => import('./views/home/index.vue'),
         title: '首页',
         icon: HomeOutline,
     },
