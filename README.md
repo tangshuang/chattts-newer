@@ -13,3 +13,7 @@
     - `yarn make-icon` 生成图标
     - `yarn make` 生成桌面程序
     - `yarn start` 本地启动桌面程序预览
+
+## download
+
+在本项目主页的“Tags”列表中，可以找到最新版本的下载链接。
