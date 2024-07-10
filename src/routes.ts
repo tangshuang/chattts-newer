@@ -28,7 +28,7 @@ export default [
         name: 'seed',
         path: '/seed',
         component: () => import('./views/seed/index.vue'),
-        title: '内置音色',
+        title: '音色种子',
         icon: PersonVoice20Regular,
     },
     {

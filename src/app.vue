@@ -8,7 +8,6 @@ const route = useRoute();
 const router = useRouter();
 
 const media = window.matchMedia(' (prefers-color-scheme: dark)');
-
 const isDarkMode = ref(media.matches);
 const darkOverrides = {
   common: {

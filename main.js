@@ -111,14 +111,11 @@ const createWindow = (url, options) => {
 
     win.webContents.setWindowOpenHandler((details) => {
         const { url, disposition } = details;
-        const openDefaultBrowser = () => {
-            shell.openExternal(url);
-        };
         if (url.indexOf(HOME_URL) !== 0) {
-            openDefaultBrowser();
+            shell.openExternal(url);
         }
         else if (disposition === 'new-window') {
-            openDefaultBrowser();
+            shell.openExternal(url);
         }
     });
 
@@ -129,7 +126,7 @@ const createWindow = (url, options) => {
 
 const createMainWindow = () => {
     const win = createWindow('/', {
-        width: 1360,
+        width: 1365,
         height: 900,
         showMenu: true,
     });

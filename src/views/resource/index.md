@@ -13,7 +13,7 @@
 * **6. Timbre** : 预设的音色种子值
 * **7. Audio Seed** : 配置音色种子值，不同种子对应不同音色
 * **8. 🎲** : 随机产生音色种子值
-* **9. Speaker Embedding** : 音色码，详见 [音色控制](#音色控制)
+* **9. Speaker Embedding** : 音色码，代码层面用到的音色码串
 
 ### 情感控制
 
@@ -34,39 +34,3 @@
 * **18. Output Audio** : 音频生成结果
 * **19. ↓** : 点击下载音频文件
 * **20. ▶️** : 点击播放音频文件
-
-## 入门教程
-
-### 中文教程
-
-|                                                                    视频                                                                     | 亮点            |
-|:-----------------------------------------------------------------------------------------------------------------------------------------:|---------------|
-|                     [同济子豪兄](https://www.bilibili.com/video/BV1Ui421v7JU/?vd_source=b958002f14b88fc59432b810e4448b72)                      | 从入门到进阶的详细部署教程 |
-|                      [ZTFS](https://www.bilibili.com/video/BV1nZ421p74z/?vd_source=6773fc664ee1e277b8a2290d66ebb7a3)                      | Mac M1 部署教程   |
-| [王-寳寳](https://www.bilibili.com/video/BV1Ji421U74a/?spm_id_from=333.337.search-card.all.click&vd_source=6773fc664ee1e277b8a2290d66ebb7a3) | Windows 部署教程  |
-
-### 英文教程
-
-| 视频 | 亮点            |
-|:--------:|--------|
-| [Sam Witteveen](https://www.youtube.com/watch?v=L4klnZ5Lox8) | 英文版介绍         |
-
-## 热门分支
-
-### 功能增强
-
-|                                   项目                                    |                                 Star                                  | 亮点                   |
-|:-----------------------------------------------------------------------:|:---------------------------------------------------------------------:|----------------------|
-|  [jianchang512/ChatTTS-ui](https://github.com/jianchang512/ChatTTS-ui)  | ![Star](https://img.shields.io/github/stars/jianchang512/ChatTTS-ui)  | 提供 API 接口，可在第三方应用中调用 |
-|    [6drf21e/ChatTTS_colab](https://github.com/6drf21e/ChatTTS_colab)    |  ![Star](https://img.shields.io/github/stars/6drf21e/ChatTTS_colab)   | 提供流式输出，支持长音频生成和分角色阅读 |
-|      [lenML/ChatTTS-Forge](https://github.com/lenML/ChatTTS-Forge)      |   ![Star](https://img.shields.io/github/stars/lenML/ChatTTS-Forge)    | 提供人声增强和背景降噪，可使用附加提示词 |
-| [CCmahua/ChatTTS-Enhanced](https://github.com/CCmahua/ChatTTS-Enhanced) | ![Star](https://img.shields.io/github/stars/CCmahua/ChatTTS-Enhanced) | 支持文件批量处理，以及导出 SRT 文件 |
-|  [HKoon/ChatTTS-OpenVoice](https://github.com/HKoon/ChatTTS-OpenVoice)  | ![Star](https://img.shields.io/github/stars/HKoon/ChatTTS-OpenVoice)  | 配合 OpenVoice 进行声音克隆  |
-
-### 功能扩展
-
-|                                      项目                                      |                                                 Star                                                 | 亮点                            |
-|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|-------------------------------|
-| [6drf21e/ChatTTS_Speaker](https://github.com/6drf21e/ChatTTS_Speaker) |                 ![Star](https://img.shields.io/github/stars/6drf21e/ChatTTS_Speaker)                 | 音色角色打标与稳定性评估                  |
-|         [AIFSH/ComfyUI-ChatTTS](https://github.com/AIFSH/ComfyUI-ChatTTS)          |                  ![Star](https://img.shields.io/github/stars/AIFSH/ComfyUI-ChatTTS)                  | ComfyUi 版本，可作为工作流节点引入         |
-| [MaterialShadow/ChatTTS-manager](https://github.com/MaterialShadow/ChatTTS-manager) |            ![Star](https://img.shields.io/github/stars/MaterialShadow/ChatTTS-manager)             | 提供了音色管理系统和 WebUI 界面           |

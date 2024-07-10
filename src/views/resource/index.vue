@@ -13,5 +13,7 @@ import content from './index.md?raw';
 <style scoped>
 .markdown {
     margin: 40px;
+    font-size: 16px;
+    line-height: 1.8;
 }
 </style>
